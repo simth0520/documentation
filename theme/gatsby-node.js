@@ -100,7 +100,7 @@ exports.createPages = async ({graphql, actions}, themeOptions) => {
 
       if (node.frontmatter.redirect_from) {
         node.frontmatter.redirect_from
-          .flatMap(from => [from, `${from}.html`])
+          .flatMap(from => from.endsWith('index') ? from : [from, `${from}.html`])
           .forEach((from) => {
             actions.createRedirect({
               fromPath: from,
