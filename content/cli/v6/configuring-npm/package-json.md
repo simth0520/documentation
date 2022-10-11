@@ -5,6 +5,34 @@ description: Specifics of npm's package.json handling
 github_repo: npm/cli
 github_branch: v6
 github_path: docs/content/configuring-npm/package-json.md
+redirect_from:
+  - /cli-documentation/v6/configuring-npm/creating-a-packge
+  - /cli-documentation/v6/configuring-npm/creating-a-packge-json-file
+  - /cli-documentation/v6/configuring-npm/creating-a-packge.json-file
+  - /cli-documentation/v6/configuring-npm/package
+  - /cli-documentation/v6/configuring-npm/package-json
+  - /cli-documentation/v6/configuring-npm/package.json
+  - /cli-documentation/v6/creating-a-packge-json-file
+  - /cli-documentation/v6/creating-a-packge.json-file
+  - /cli-documentation/v6/files/creating-a-packge
+  - /cli-documentation/v6/files/creating-a-packge-json-file
+  - /cli-documentation/v6/files/creating-a-packge.json-file
+  - /cli-documentation/v6/files/package
+  - /cli-documentation/v6/files/package-json
+  - /cli-documentation/v6/files/package.json
+  - /cli/v6/configuring-npm/creating-a-packge
+  - /cli/v6/configuring-npm/creating-a-packge-json-file
+  - /cli/v6/configuring-npm/creating-a-packge.json-file
+  - /cli/v6/configuring-npm/package
+  - /cli/v6/configuring-npm/package.json
+  - /cli/v6/creating-a-packge-json-file
+  - /cli/v6/creating-a-packge.json-file
+  - /cli/v6/files/creating-a-packge
+  - /cli/v6/files/creating-a-packge-json-file
+  - /cli/v6/files/creating-a-packge.json-file
+  - /cli/v6/files/package
+  - /cli/v6/files/package-json
+  - /cli/v6/files/package.json
 ---
 
 ### Description

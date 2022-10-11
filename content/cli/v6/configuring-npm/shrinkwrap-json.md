@@ -5,6 +5,18 @@ description: A publishable lockfile
 github_repo: npm/cli
 github_branch: v6
 github_path: docs/content/configuring-npm/shrinkwrap-json.md
+redirect_from:
+  - /cli-documentation/v6/configuring-npm/shrinkwrap
+  - /cli-documentation/v6/configuring-npm/shrinkwrap-json
+  - /cli-documentation/v6/configuring-npm/shrinkwrap.json
+  - /cli-documentation/v6/files/shrinkwrap
+  - /cli-documentation/v6/files/shrinkwrap-json
+  - /cli-documentation/v6/files/shrinkwrap.json
+  - /cli/v6/configuring-npm/shrinkwrap
+  - /cli/v6/configuring-npm/shrinkwrap.json
+  - /cli/v6/files/shrinkwrap
+  - /cli/v6/files/shrinkwrap-json
+  - /cli/v6/files/shrinkwrap.json
 ---
 
 ### Description

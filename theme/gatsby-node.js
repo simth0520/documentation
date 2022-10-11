@@ -99,14 +99,16 @@ exports.createPages = async ({graphql, actions}, themeOptions) => {
       })
 
       if (node.frontmatter.redirect_from) {
-        node.frontmatter.redirect_from.forEach((from) => {
-          actions.createRedirect({
-            fromPath: from,
-            toPath: '/' + pagePath,
-            isPermanent: true,
-            redirectInBrowser: true
+        node.frontmatter.redirect_from
+          .flatMap(from => [from, `${from}.html`])
+          .forEach((from) => {
+            actions.createRedirect({
+              fromPath: from,
+              toPath: '/' + pagePath,
+              isPermanent: true,
+              redirectInBrowser: true
+            })
           })
-        })
       }
     }),
   )
