@@ -62,3 +62,64 @@ t.test('command', async t => {
     '/commands/npm-bin',
   ])
 })
+
+t.test('package-json files', async t => {
+  const v7 = transform({ id: 'v7', path: 'configuring-npm/package-json' })
+  const v8 = transform({ id: 'v8', path: 'configuring-npm/package-json' })
+
+  t.strictSame(v7.redirect_from, [
+    '/cli/v7/configuring-npm/creating-a-package',
+    '/cli/v7/configuring-npm/creating-a-package-json-file',
+    '/cli/v7/configuring-npm/creating-a-package.json-file',
+    '/cli/v7/configuring-npm/package',
+    '/cli/v7/configuring-npm/package-json',
+    '/cli/v7/configuring-npm/package.json',
+    '/cli/v7/creating-a-package-json-file',
+    '/cli/v7/creating-a-package.json-file',
+    '/cli/v7/files/creating-a-package',
+    '/cli/v7/files/creating-a-package-json-file',
+    '/cli/v7/files/creating-a-package.json-file',
+    '/cli/v7/files/package',
+    '/cli/v7/files/package-json',
+    '/cli/v7/files/package.json',
+  ])
+  t.strictSame(v8.redirect_from, [
+    '/cli/configuring-npm/creating-a-package',
+    '/cli/configuring-npm/creating-a-package-json-file',
+    '/cli/configuring-npm/creating-a-package.json-file',
+    '/cli/configuring-npm/package',
+    '/cli/configuring-npm/package-json',
+    '/cli/configuring-npm/package.json',
+    '/cli/creating-a-package-json-file',
+    '/cli/creating-a-package.json-file',
+    '/cli/files/creating-a-package',
+    '/cli/files/creating-a-package-json-file',
+    '/cli/files/creating-a-package.json-file',
+    '/cli/files/package',
+    '/cli/files/package-json',
+    '/cli/files/package.json',
+    '/cli/v8/configuring-npm/creating-a-package',
+    '/cli/v8/configuring-npm/creating-a-package-json-file',
+    '/cli/v8/configuring-npm/creating-a-package.json-file',
+    '/cli/v8/configuring-npm/package',
+    '/cli/v8/configuring-npm/package-json',
+    '/cli/v8/configuring-npm/package.json',
+    '/cli/v8/creating-a-package-json-file',
+    '/cli/v8/creating-a-package.json-file',
+    '/cli/v8/files/creating-a-package',
+    '/cli/v8/files/creating-a-package-json-file',
+    '/cli/v8/files/creating-a-package.json-file',
+    '/cli/v8/files/package',
+    '/cli/v8/files/package-json',
+    '/cli/v8/files/package.json',
+    '/configuring-npm/creating-a-package',
+    '/configuring-npm/creating-a-package-json-file',
+    '/configuring-npm/package',
+    '/configuring-npm/package-json',
+    '/creating-a-package-json-file',
+    '/files/creating-a-package',
+    '/files/creating-a-package-json-file',
+    '/files/package',
+    '/files/package-json',
+  ])
+})

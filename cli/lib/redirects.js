@@ -73,9 +73,9 @@ module.exports = {
     { path: join('/', section, page), default: release.id === 'v6' },
   ],
   'configuring-npm/package-json': ({ section }) => [
-    join(section, 'creating-a-packge-json-file'),
-    join('creating-a-packge-json-file'),
-    join('/', 'creating-a-packge-json-file'),
+    join(section, 'creating-a-package-json-file'),
+    join('creating-a-package-json-file'),
+    join('/', 'creating-a-package-json-file'),
   ],
 
   // using npm
