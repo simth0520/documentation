@@ -6,70 +6,54 @@ github_repo: npm/cli
 github_branch: v8
 github_path: docs/content/configuring-npm/package-json.md
 redirect_from:
-  - /cli-documentation/configuring-npm/creating-a-packge
-  - /cli-documentation/configuring-npm/creating-a-packge-json-file
-  - /cli-documentation/configuring-npm/creating-a-packge.json-file
-  - /cli-documentation/configuring-npm/package
+  - /cli-documentation/configuring-npm/creating-a-package-json-file
+  - /cli-documentation/configuring-npm/creating-a-package.json-file
   - /cli-documentation/configuring-npm/package-json
   - /cli-documentation/configuring-npm/package.json
-  - /cli-documentation/creating-a-packge-json-file
-  - /cli-documentation/creating-a-packge.json-file
-  - /cli-documentation/files/creating-a-packge
-  - /cli-documentation/files/creating-a-packge-json-file
-  - /cli-documentation/files/creating-a-packge.json-file
-  - /cli-documentation/files/package
+  - /cli-documentation/creating-a-package-json-file
+  - /cli-documentation/creating-a-package.json-file
+  - /cli-documentation/files/creating-a-package-json-file
+  - /cli-documentation/files/creating-a-package.json-file
   - /cli-documentation/files/package-json
   - /cli-documentation/files/package.json
-  - /cli-documentation/v8/configuring-npm/creating-a-packge
-  - /cli-documentation/v8/configuring-npm/creating-a-packge-json-file
-  - /cli-documentation/v8/configuring-npm/creating-a-packge.json-file
-  - /cli-documentation/v8/configuring-npm/package
+  - /cli-documentation/v8/configuring-npm/creating-a-package-json-file
+  - /cli-documentation/v8/configuring-npm/creating-a-package.json-file
   - /cli-documentation/v8/configuring-npm/package-json
   - /cli-documentation/v8/configuring-npm/package.json
-  - /cli-documentation/v8/creating-a-packge-json-file
-  - /cli-documentation/v8/creating-a-packge.json-file
-  - /cli-documentation/v8/files/creating-a-packge
-  - /cli-documentation/v8/files/creating-a-packge-json-file
-  - /cli-documentation/v8/files/creating-a-packge.json-file
-  - /cli-documentation/v8/files/package
+  - /cli-documentation/v8/creating-a-package-json-file
+  - /cli-documentation/v8/creating-a-package.json-file
+  - /cli-documentation/v8/files/creating-a-package-json-file
+  - /cli-documentation/v8/files/creating-a-package.json-file
   - /cli-documentation/v8/files/package-json
   - /cli-documentation/v8/files/package.json
-  - /cli/configuring-npm/creating-a-packge
-  - /cli/configuring-npm/creating-a-packge-json-file
-  - /cli/configuring-npm/creating-a-packge.json-file
-  - /cli/configuring-npm/package
+  - /cli/configuring-npm/creating-a-package-json-file
+  - /cli/configuring-npm/creating-a-package.json-file
   - /cli/configuring-npm/package-json
   - /cli/configuring-npm/package.json
-  - /cli/creating-a-packge-json-file
-  - /cli/creating-a-packge.json-file
-  - /cli/files/creating-a-packge
-  - /cli/files/creating-a-packge-json-file
-  - /cli/files/creating-a-packge.json-file
-  - /cli/files/package
+  - /cli/creating-a-package-json-file
+  - /cli/creating-a-package.json-file
+  - /cli/files/creating-a-package-json-file
+  - /cli/files/creating-a-package.json-file
   - /cli/files/package-json
   - /cli/files/package.json
-  - /cli/v8/configuring-npm/creating-a-packge
-  - /cli/v8/configuring-npm/creating-a-packge-json-file
-  - /cli/v8/configuring-npm/creating-a-packge.json-file
-  - /cli/v8/configuring-npm/package
+  - /cli/v8/configuring-npm/creating-a-package-json-file
+  - /cli/v8/configuring-npm/creating-a-package.json-file
   - /cli/v8/configuring-npm/package.json
-  - /cli/v8/creating-a-packge-json-file
-  - /cli/v8/creating-a-packge.json-file
-  - /cli/v8/files/creating-a-packge
-  - /cli/v8/files/creating-a-packge-json-file
-  - /cli/v8/files/creating-a-packge.json-file
-  - /cli/v8/files/package
+  - /cli/v8/creating-a-package-json-file
+  - /cli/v8/creating-a-package.json-file
+  - /cli/v8/files/creating-a-package-json-file
+  - /cli/v8/files/creating-a-package.json-file
   - /cli/v8/files/package-json
   - /cli/v8/files/package.json
-  - /configuring-npm/creating-a-packge
-  - /configuring-npm/creating-a-packge-json-file
-  - /configuring-npm/package
+  - /configuring-npm/creating-a-package-json-file
+  - /configuring-npm/creating-a-package.json-file
   - /configuring-npm/package-json
-  - /creating-a-packge-json-file
-  - /files/creating-a-packge
-  - /files/creating-a-packge-json-file
-  - /files/package
+  - /configuring-npm/package.json
+  - /creating-a-package-json-file
+  - /files/creating-a-package-json-file
+  - /files/creating-a-package.json-file
   - /files/package-json
+  - /files/package.json
 ---
 
 ### Description

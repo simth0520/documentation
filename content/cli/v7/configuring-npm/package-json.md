@@ -6,31 +6,23 @@ github_repo: npm/cli
 github_branch: v7
 github_path: docs/content/configuring-npm/package-json.md
 redirect_from:
-  - /cli-documentation/v7/configuring-npm/creating-a-packge
-  - /cli-documentation/v7/configuring-npm/creating-a-packge-json-file
-  - /cli-documentation/v7/configuring-npm/creating-a-packge.json-file
-  - /cli-documentation/v7/configuring-npm/package
+  - /cli-documentation/v7/configuring-npm/creating-a-package-json-file
+  - /cli-documentation/v7/configuring-npm/creating-a-package.json-file
   - /cli-documentation/v7/configuring-npm/package-json
   - /cli-documentation/v7/configuring-npm/package.json
-  - /cli-documentation/v7/creating-a-packge-json-file
-  - /cli-documentation/v7/creating-a-packge.json-file
-  - /cli-documentation/v7/files/creating-a-packge
-  - /cli-documentation/v7/files/creating-a-packge-json-file
-  - /cli-documentation/v7/files/creating-a-packge.json-file
-  - /cli-documentation/v7/files/package
+  - /cli-documentation/v7/creating-a-package-json-file
+  - /cli-documentation/v7/creating-a-package.json-file
+  - /cli-documentation/v7/files/creating-a-package-json-file
+  - /cli-documentation/v7/files/creating-a-package.json-file
   - /cli-documentation/v7/files/package-json
   - /cli-documentation/v7/files/package.json
-  - /cli/v7/configuring-npm/creating-a-packge
-  - /cli/v7/configuring-npm/creating-a-packge-json-file
-  - /cli/v7/configuring-npm/creating-a-packge.json-file
-  - /cli/v7/configuring-npm/package
+  - /cli/v7/configuring-npm/creating-a-package-json-file
+  - /cli/v7/configuring-npm/creating-a-package.json-file
   - /cli/v7/configuring-npm/package.json
-  - /cli/v7/creating-a-packge-json-file
-  - /cli/v7/creating-a-packge.json-file
-  - /cli/v7/files/creating-a-packge
-  - /cli/v7/files/creating-a-packge-json-file
-  - /cli/v7/files/creating-a-packge.json-file
-  - /cli/v7/files/package
+  - /cli/v7/creating-a-package-json-file
+  - /cli/v7/creating-a-package.json-file
+  - /cli/v7/files/creating-a-package-json-file
+  - /cli/v7/files/creating-a-package.json-file
   - /cli/v7/files/package-json
   - /cli/v7/files/package.json
 ---

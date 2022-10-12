@@ -2,13 +2,12 @@ const parseFm = require('front-matter')
 const Minipass = require('minipass')
 const yaml = require('yaml')
 const minimatch = require('minimatch')
-const { sep, extname, join, posix, isAbsolute } = require('path')
+const { sep, join, posix, isAbsolute } = require('path')
 const gh = require('./gh')
 const rawRedirects = require('./redirects')
 
 const getPathParts = (path) => {
-  const ext = extname(path)
-  const paths = path.replace(new RegExp(`\\${ext}$`), '').split(sep)
+  const paths = path.replace(/\.mdx?$/, '').split(sep)
 
   const pathId = posix.join(...paths)
   const page = posix.basename(pathId)
@@ -31,10 +30,9 @@ const getRedirects = ({ path, release }) => {
   )
 
   for (const [k, v] of Object.entries(rawRedirects).reverse()) {
-    const pageRedirects = redirects.flatMap(({ path: redirectPath, ...redirect }) => {
-      if (minimatch(redirectPath, k)) {
-        const paths = v({ ...getPathParts(redirectPath), release })
-        return paths.map(p => ({
+    const pageRedirects = redirects.flatMap(redirect => {
+      if (minimatch(redirect.path, k)) {
+        return v({ ...getPathParts(redirect.path), release }).map(p => ({
           ...redirect,
           ...typeof p === 'object' ? p : { path: p },
         }))
